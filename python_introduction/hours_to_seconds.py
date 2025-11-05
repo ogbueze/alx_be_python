@@ -1,6 +1,4 @@
-hours = 1
+hours = 2
 minutes = 60
-seconds = 60
-
-hours_t0_second = seconds*minutes*hours
-print(f"{hours} hours is {hours_t0_second} seconds")
+seconds = 60*minutes*hours
+print(f"{hours} hour(s) is {seconds} seconds")
