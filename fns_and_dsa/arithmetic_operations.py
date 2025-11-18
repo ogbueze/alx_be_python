@@ -1,13 +1,13 @@
 def perform_operation(num1, num2, operation):
     match operation:
-        case '+':
+        case 'add':
             result = num1 + num2
-        case '-':
+        case 'subtract':
             result = num1 - num2
-        case '/':
+        case 'divide':
             if num1 == 0:
                 return 'cannot divide by zero'
-        case '*':
+        case 'multiply':
             result = num1 * num2
         case _:
             result = 'invalid operation'
