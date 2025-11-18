@@ -1,14 +1,14 @@
-def perform_operation(first_num, second_num, operation):
+def perform_operation(num1, num2, operation):
     match operation:
         case '+':
-            result = first_num + second_num
+            result = num1 + num2
         case '-':
-            result = first_num - second_num
+            result = num1 - num2
         case '/':
-            if first_num == 0:
+            if num1 == 0:
                 return 'cannot divide by zero'
         case '*':
-            result = first_num * second_num
+            result = num1 * num2
         case _:
             result = 'invalid operation'
     return result
