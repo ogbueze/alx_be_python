@@ -23,4 +23,4 @@ try:
     else:
         print("input, select c or f")
 except ValueError:
-    print("Please enter a valid integer to proceed")
+    print("Invalid temperature. Please enter a numeric value.")
